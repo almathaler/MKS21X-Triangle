@@ -25,7 +25,7 @@ public class Triangle {
       // like i have to return something, but i can't do -1 in case index is out of bounds. so i just put 'return p2'
     }
 
-    public double perimeter() {
+    public double getPerimeter() {
       return P0.distanceTo(P1) + P1.distanceTo(P2) + P2.distanceTo(P0);
     }
 

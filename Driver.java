@@ -23,8 +23,8 @@ public class Driver{
     System.out.println("t0: " + t0);
     System.out.println("t1 " + t1 + "\n");
 
-    System.out.println("Perimeter of t0:" + t0.perimeter());
-    System.out.println("perimeter of t1:" + t1.perimeter() + "\n");
+    System.out.println("Perimeter of t0:" + t0.getPerimeter());
+    System.out.println("perimeter of t1:" + t1.getPerimeter() + "\n");
     System.out.println("the three vertices of t1:" + t1.getVertex(0) + t1.getVertex(1) + t1.getVertex(2));
     System.out.println("the three vertices of t0:" + t0.getVertex(0) + t0.getVertex(1) + t0.getVertex(2) + "\n");
     System.out.println("We just changed the vertices of t1, let's compare them to t0's (which are the same as t1's)");
