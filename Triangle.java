@@ -8,9 +8,9 @@ public class Triangle {
     }
 
     public Triangle(double px0, double py0, double px1, double py1, double px2, double py2) {
-      Point P0 = new Point(px0, py0);
-      Point P2 = new Point(px2, py2);
-      Point P1 = new Point(px1, px1);
+      P0 = new Point(px0, py0);
+      P2 = new Point(px2, py2);
+      P1 = new Point(px1, py1);
     }
 
     public Point getVertex(int index) {
